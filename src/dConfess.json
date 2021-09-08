@@ -95,21 +95,14 @@
   "ast": {
     "absolutePath": "/home/rishabh/Desktop/dConfess_final/mydapp/contracts/dConfess.sol",
     "exportedSymbols": {
-      "dConfess": [
-        188
-      ]
+      "dConfess": [188]
     },
     "id": 189,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 38,
-        "literals": [
-          "solidity",
-          ">=",
-          "0.5",
-          ".0"
-        ],
+        "literals": ["solidity", ">=", "0.5", ".0"],
         "nodeType": "PragmaDirective",
         "src": "0:24:1"
       },
@@ -120,9 +113,7 @@
         "documentation": null,
         "fullyImplemented": true,
         "id": 188,
-        "linearizedBaseContracts": [
-          188
-        ],
+        "linearizedBaseContracts": [188],
         "name": "dConfess",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -257,9 +248,7 @@
               "src": "337:534:1",
               "statements": [
                 {
-                  "assignments": [
-                    56
-                  ],
+                  "assignments": [56],
                   "declarations": [
                     {
                       "constant": false,
@@ -538,9 +527,7 @@
                   },
                   "id": 84,
                   "initializationExpression": {
-                    "assignments": [
-                      60
-                    ],
+                    "assignments": [60],
                     "declarations": [
                       {
                         "constant": false,
@@ -1052,9 +1039,7 @@
                   },
                   "id": 125,
                   "initializationExpression": {
-                    "assignments": [
-                      97
-                    ],
+                    "assignments": [97],
                     "declarations": [
                       {
                         "constant": false,
@@ -1516,9 +1501,7 @@
                   },
                   "id": 167,
                   "initializationExpression": {
-                    "assignments": [
-                      144
-                    ],
+                    "assignments": [144],
                     "declarations": [
                       {
                         "constant": false,
@@ -1909,21 +1892,14 @@
   "legacyAST": {
     "absolutePath": "/home/rishabh/Desktop/dConfess_final/mydapp/contracts/dConfess.sol",
     "exportedSymbols": {
-      "dConfess": [
-        188
-      ]
+      "dConfess": [188]
     },
     "id": 189,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 38,
-        "literals": [
-          "solidity",
-          ">=",
-          "0.5",
-          ".0"
-        ],
+        "literals": ["solidity", ">=", "0.5", ".0"],
         "nodeType": "PragmaDirective",
         "src": "0:24:1"
       },
@@ -1934,9 +1910,7 @@
         "documentation": null,
         "fullyImplemented": true,
         "id": 188,
-        "linearizedBaseContracts": [
-          188
-        ],
+        "linearizedBaseContracts": [188],
         "name": "dConfess",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -2071,9 +2045,7 @@
               "src": "337:534:1",
               "statements": [
                 {
-                  "assignments": [
-                    56
-                  ],
+                  "assignments": [56],
                   "declarations": [
                     {
                       "constant": false,
@@ -2352,9 +2324,7 @@
                   },
                   "id": 84,
                   "initializationExpression": {
-                    "assignments": [
-                      60
-                    ],
+                    "assignments": [60],
                     "declarations": [
                       {
                         "constant": false,
@@ -2866,9 +2836,7 @@
                   },
                   "id": 125,
                   "initializationExpression": {
-                    "assignments": [
-                      97
-                    ],
+                    "assignments": [97],
                     "declarations": [
                       {
                         "constant": false,
@@ -3330,9 +3298,7 @@
                   },
                   "id": 167,
                   "initializationExpression": {
-                    "assignments": [
-                      144
-                    ],
+                    "assignments": [144],
                     "declarations": [
                       {
                         "constant": false,

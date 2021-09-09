@@ -1,15 +1,15 @@
-pragma solidity >=0.5.0;
+// SPDX-License-Identifier: Apache-2.0
+pragma solidity 0.8.4;
  
 contract dConfess 
 {
- 
-    constructor() public {}
+
     address[] private confessors;
     mapping (address => string[] ) private confessions;
      
      
     // event confessionRecorded(address indexed key,bytes32 _digest,uint8 _hashFunction,uint8 _size);
-     
+    
     function set(string memory _hash) public
     {
         bool oldconfessor = false;

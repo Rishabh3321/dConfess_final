@@ -11,6 +11,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  overflow-y: hidden;
 }
 
 .glow-on-hover {
@@ -18,7 +19,7 @@ body {
   height: 50px;
   border: none;
   outline: none;
-  color: #000;
+  color: #fff;
   font-weight: bold;
   background: rgb(255, 0, 0);
   cursor: pointer;

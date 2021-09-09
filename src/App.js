@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import dConfessContract from "./dConfess.json";
-import getWeb3 from "./getWeb3";
+import dConfessContract from "./contracts/dConfess.json";
 import "./App.css";
+import getWeb3 from "./getWeb3";
 
 let no_of_confessions = 0;
 let which_page = false;
@@ -20,24 +20,16 @@ class App extends Component {
   }
   componentDidMount = async () => {
     try {
-      // Get network provider and web3 instance.
       const web3 = await getWeb3();
-      //console.log(web3)
-      // Get the contract instance.
       const accounts = await web3.eth.getAccounts();
-      // console.log(accounts[0]);
-
       const networkId = await web3.eth.net.getId();
+      console.log(networkId);
       const deployedNetwork = dConfessContract.networks[networkId];
+      console.log(deployedNetwork);
       const instance = new web3.eth.Contract(
         dConfessContract.abi,
         deployedNetwork.address
       );
-      // Set web3, accounts, and contract to the state, and then proceed with an
-      // example of interacting with the contract's methods.
-      // const account = await contract.methods.getAddress().call();console.log("j "+account);
-      console.log(deployedNetwork);
-      // console.log(instance);
       this.setState({
         web3,
         accounts,
@@ -96,10 +88,10 @@ class App extends Component {
     await this.getAccount();
     const contract = this.state.contract;
     const account = this.state.account;
-    var confess = "";
+    let confess = "";
     await this.getCount();
     if (no_of_confessions === 0) {
-      window.alert("Confess first!!!!!");
+      window.alert("There no confessions yet");
     } else {
       for (let i = 0; i < no_of_confessions; i++) {
         confess = await contract.methods.getConfession(account, i).call();
